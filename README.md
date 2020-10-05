@@ -1,28 +1,9 @@
 # magento-docker-compose
 
-## Installation Guide
-1. Clone the magento-docker-compose repository by executing the following command in the working directory:<br />
-`git clone https://github.com/mowadigital/magento-docker-compose.git <name folder>`
-
-2. Go into the folder<br />
-`cd <name folder>`
-
-3. Edit the docker-copmose.yml file (with VIM) [VIM cheat Sheet](https://vim.rtorr.com/)<br />
-`vi docker-compose.yml`
-
-4. Start editing in VIM press 'i'
-
-5. Replace 'magento002' with magentodemo<br />
-*:%s/old/new/g* (replace all old with new throughout file)<br />
-`:%s/magento002/magentodemo/g`
-
-6. Save and quit VIM<br />
-`:wq`
-
-7. Run Docker (this will create/pull the images)<br />
+1. Run Docker (this will create/pull the images)<br />
 `docker-compose up -d`
 
-8. View the current containers<br />
+2. View the current containers<br />
 `docker ps`
 
 ## Setup Magento
